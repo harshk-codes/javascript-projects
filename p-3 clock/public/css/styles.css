@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: rgb(60, 60, 60, 0.5);
+    width: 250px;
+    height: 190px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    left: 640px;
+}
+
+#time {
+    background-color: red;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 3rem;
+}
+
+#session {
+    color: rgb(255, 0, 200);
+    position: absolute;
+    top: 62px;
+    left: 210px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 10px;
+}
+
+.day {
+    background-color: rgb(0, 131, 44);
+
+    background-image: linear-gradient(45deg, #007efd, #005d53);
+
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+}
+
+.img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: rgb(171, 163, 178);
+    position: absolute;
+    top: 90px;
+    left: 35px;
+}
+
+.weather {
+    background-color: rgb(40, 5, 123);
+    background-image: linear-gradient(45deg, #df60ff, #cc0055);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.search {
+    background-color: rgba(65, 65, 65, 0.5);
+    width: 170px;
+    color: rgba(127, 255, 212, 0.632);
+    border-radius: 5px;
+    position: absolute;
+    top: 180px;
+    left: 675px;
+    font-family: "Ubuntu", sans-serif;
+    z-index: -1;
+}
+
+.btn {
+    background-color: black;
+    position: absolute;
+    border-radius: 25%;
+    top: 180px;
+    left: 850px;
+    cursor: pointer;
+    color: white;
+}
